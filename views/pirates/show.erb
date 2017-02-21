@@ -6,10 +6,10 @@
   </head>
   <body>
     <div class="pirate">
-      <h1><%= "#{@pirate.name}: #{@pirate.weight} pounds, #{@pirate.height} tall" %></h1>
+      <h1><%= "#{@pirate.name} weighs #{@pirate.weight} pounds and is #{@pirate.height} inches tall." %></h1>
     </div>
 
-    <h2><%= "#{@ships[0].name}: #{@ships[0].type}, #{@ships[0].booty}" %></h2>
-    <h2><%= "#{@ships[1].name}: #{@ships[1].type}, #{@ships[1].booty}" %></h2>
+    <h2><%= "#{@ships[0].name} is a #{@ships[0].type} carrying #{@ships[0].booty}" %></h2>
+    <h2><%= "#{@ships[1].name} is a #{@ships[1].type} carrying #{@ships[1].booty}" %></h2>
   </body>
 </html>
